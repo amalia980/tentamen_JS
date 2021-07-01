@@ -29,3 +29,10 @@ function myFunction5() {
 }
 
 myFunction5();
+
+
+function myPuppy(isCute) {
+    isCute();
+}
+
+myPuppy(() => console.log("hey"));
